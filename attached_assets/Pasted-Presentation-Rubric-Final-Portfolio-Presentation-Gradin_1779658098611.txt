@@ -1,0 +1,49 @@
+Presentation Rubric
+Final Portfolio Presentation — Grading Sheet
+
+STUDENT NAME PRESENTATION DATE
+
+PERIOD SLIDE TOOL USED
+
+# CATEGORY &amp; CRITERIA PTS SCORE
+1 Introduction &amp; Project Overview 5 ____ /5
+☐ Clearly introduces themselves and the purpose of the portfolio
+☐ Explains the Web Design Pathway Program and what the capstone represents
+☐ States a clear goal or vision for what they wanted their portfolio to accomplish
+2 Design Process 10 ____ /10
+☐ Shows and explains their lo-fi wireframe
+☐ Shows and explains their hi-fi wireframe
+☐ Describes how their design changed or evolved from wireframe to final site
+☐ Explains research: what portfolios they studied and what influenced their decisions
+☐ Demonstrates that the process followed the correct order (research → plan → build → feedback)
+3 Development Explanation 10 ____ /10
+☐ Explains how the site was built and what technologies were used
+☐ Describes how JSON and Vue or jQuery were used to dynamically display content
+☐ Mentions specific technical features implemented (responsiveness, animations, etc.)
+☐ Explains at least one technical challenge and how it was solved
+☐ Shows live site or demonstrates key features during the presentation
+4 Portfolio Highlights 10 ____ /10
+☐ Walks through 2–3 featured projects and explains why they are highlights
+☐ Connects featured projects to skills learned each year of the program
+☐ Demonstrates growth from Year 1 to Year 3 through the work shown
+☐ Discusses what makes each highlight their best or most meaningful work
+5 AI Usage 5 ____ /5
+☐ Explains where and how AI was used in the project
+☐ Shows at least one specific example (prompt and what it produced)
+☐ Identifies what AI helped with and what its limitations were
+☐ Demonstrates personal understanding — not blind reliance on AI output
+
+Web Design Pathway Program · Senior Capstone Project Final Due: June 1, 2026
+6 Reflection &amp; Growth 5 ____ /5
+☐ Reflects on what was easy and what was difficult about this project
+☐ Identifies key growth or learning moments from the capstone process
+☐ Discusses what they would do differently if they started over
+☐ Shares future plans and how this program has shaped them
+7 Visual Aid (Slides) 3 ____ /3
+☐ Slides include required visuals: wireframes, screenshots of the live site, and project highlights
+☐ Slides are clean, readable, and organized — not cluttered with too much text
+☐ Visual aid clearly supports and enhances the spoken presentation
+8 Presentation Delivery 2 ____ /2
+☐ Presentation is clear, organized, and easy to follow
+☐ Presentation is within the required 5–10 minute time range
+TOTAL SCORE 50

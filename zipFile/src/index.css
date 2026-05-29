@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+  
+  --color-terracotta: #C97850;
+  --color-cream: #FBF7F3;
+  --color-soft-orange: #FFF5ED;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  @apply bg-cream text-terracotta;
+  font-family: var(--font-sans);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+.overlay-container {
+  @apply fixed inset-0 pointer-events-none z-50 flex flex-col items-center justify-center p-8;
+}
+
+.overlay-content {
+  @apply pointer-events-auto bg-white/90 backdrop-blur-md rounded-2xl p-8 max-w-2xl w-full shadow-2xl border border-terracotta/20 max-h-[80vh] overflow-y-auto;
+}
+
+.btn-primary {
+  @apply bg-terracotta text-cream px-6 py-2 rounded-full hover:bg-soft-orange hover:text-terracotta transition-colors duration-300 font-medium;
+}
+
+/* Three.js Canvas should fill screen */
+#root, canvas {
+  width: 100vw;
+  height: 100vh;
+}

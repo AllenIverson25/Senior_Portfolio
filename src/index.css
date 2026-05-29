@@ -1,0 +1,141 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+  --color-terracotta: #C97850;
+  --color-cream: #FBF7F3;
+  --color-soft-orange: #FFF5ED;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  @apply bg-cream text-terracotta;
+  font-family: var(--font-sans);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+#root > canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+/* ── Landing page particle float ── */
+@keyframes float-up {
+  0%   { transform: translateY(0) scale(1);   opacity: 0; }
+  15%  { opacity: 0.6; }
+  85%  { opacity: 0.4; }
+  100% { transform: translateY(-90vh) scale(0.5); opacity: 0; }
+}
+
+/* ── Landing page animated CSS waves ── */
+.wave-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat-x;
+  background-size: 50% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C150,100 350,0 600,60 C850,120 1050,20 1200,60 L1200,120 L0,120 Z' fill='%23C97850'/%3E%3C/svg%3E");
+}
+
+.wave-slow {
+  opacity: 0.08;
+  animation: wave-drift 12s linear infinite;
+}
+
+.wave-fast {
+  opacity: 0.05;
+  animation: wave-drift 8s linear infinite reverse;
+  margin-bottom: -8px;
+}
+
+@keyframes wave-drift {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Overlay entry animation ── */
+@keyframes overlayIn {
+  from { opacity: 0; transform: scale(0.93) translateY(16px); }
+  to   { opacity: 1; transform: scale(1)    translateY(0); }
+}
+
+/* ── Landing: sonar ping rings ── */
+@keyframes sonar-ping {
+  0%   { transform: translate(-50%,-50%) scale(0.3); opacity: 0; }
+  12%  { opacity: 0.65; }
+  100% { transform: translate(-50%,-50%) scale(3.5); opacity: 0; }
+}
+
+/* ── Landing: scan line sweep ── */
+@keyframes scan-line {
+  0%   { transform: translateX(-100%); opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 0.6; }
+  100% { transform: translateX(100vw); opacity: 0; }
+}
+
+/* ── Landing: title clip reveal ── */
+@keyframes title-reveal {
+  from { clip-path: inset(0 100% 0 0); opacity: 0.2; }
+  to   { clip-path: inset(0 0% 0 0);   opacity: 1; }
+}
+
+/* ── Landing: rise in ── */
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Landing: star twinkle ── */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50%       { opacity: 0.85; transform: scale(1.4); }
+}
+
+/* ── Landing: anchor glow pulse ── */
+@keyframes anchor-glow {
+  0%, 100% { box-shadow: 0 0 20px 4px rgba(201,120,80,0.25), 0 0 60px 12px rgba(201,120,80,0.10); }
+  50%       { box-shadow: 0 0 40px 10px rgba(201,120,80,0.55), 0 0 100px 30px rgba(201,120,80,0.20); }
+}
+
+/* ── Landing: shimmer across text ── */
+@keyframes shimmer-pass {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+/* ── Landing: orbit ring spin ── */
+@keyframes orbit-spin {
+  from { transform: translate(-50%,-50%) rotate(0deg); }
+  to   { transform: translate(-50%,-50%) rotate(360deg); }
+}
+
+/* ── Landing: cta button glow breathe ── */
+@keyframes cta-breathe {
+  0%, 100% { box-shadow: 0 0 30px 6px rgba(201,120,80,0.35), 0 12px 40px rgba(0,0,0,0.5); }
+  50%       { box-shadow: 0 0 60px 16px rgba(201,120,80,0.65), 0 12px 40px rgba(0,0,0,0.5); }
+}

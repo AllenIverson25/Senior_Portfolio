@@ -1,0 +1,50 @@
+WEB DESIGN PATHWAY PROGRAM · SENIOR CAPSTONE
+Website Rubric
+Final Portfolio Website — Grading Sheet
+
+STUDENT NAME GITHUB PAGES URL
+
+PERIOD DATE SUBMITTED
+
+# CATEGORY &amp; CRITERIA PTS SCORE
+1 Design Process &amp; Planning 15 ____ /15
+☐ Lo-fi wireframe submitted and reflects thoughtful layout planning
+☐ Hi-fi wireframe submitted with clear visual design decisions (color, type, spacing)
+☐ Research notes / portfolio analysis submitted (2–3 portfolios studied)
+☐ GitHub commit history shows consistent, meaningful progress over time
+☐ Evidence that peer feedback from Demo Day was used to improve the site
+2 Portfolio Content — Completeness &amp; Quality 20 ____ /20
+☐ Projects from all 3 years are included with working links
+☐ 2–3 featured projects per year (6–9 total) displayed in a clean layout
+☐ Each featured project includes: description, skills learned, reflection, and screenshots
+☐ Reflection section is personal, detailed, and shows genuine growth over three years
+☐ Future plans section is detailed (at least one full paragraph) and connects to web design experience
+☐ About Me / Personal Background section feels authentic and complete
+3 Technical Implementation 20 ____ /20
+☐ JSON file used to store project/content data
+☐ Vue.js or jQuery used with fetch to dynamically display content from JSON
+☐ Site is fully deployed and live on GitHub Pages
+☐ All links (projects, navigation, external) are functional
+☐ Code is well-structured, properly indented, and uses semantic HTML
+☐ Code includes meaningful comments throughout
+4 Responsive Design 15 ____ /15
+☐ Site works fully on desktop (no broken layouts or overflow)
+☐ Site works fully on tablet
+☐ Site works fully on mobile
+☐ Mobile layout is intentionally designed — not just a smaller version of desktop
+☐ Media queries or responsive framework used appropriately
+5 Design &amp; Creativity 20 ____ /20
+
+Web Design Pathway Program · Senior Capstone Project Final Due: June 1, 2026
+☐ Site has a clear, consistent visual identity (colors, fonts, spacing are cohesive)
+☐ Custom fonts and a personal color palette are used
+☐ Site feels distinctly personal — not generic or template-like
+☐ Layout is thoughtful and intentional (not default Bootstrap grid)
+☐ Design effort is evident throughout — attention to spacing, alignment, and visual hierarchy
+☐ Optional enhancements (animations, GSAP, etc.) used purposefully if included
+6 AI Usage Documentation 10 ____ /10
+☐ At least 3 documented examples of AI usage submitted
+☐ Each example includes: exact prompt, AI output, and how it was used or modified
+☐ Student demonstrates personal understanding of the AI-generated code or content
+☐ Reflection identifies what AI helped with and what its limitations were
+TOTAL SCORE ____ /100

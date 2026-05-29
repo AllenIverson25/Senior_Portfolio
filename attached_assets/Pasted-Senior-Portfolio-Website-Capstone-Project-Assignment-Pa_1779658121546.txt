@@ -1,0 +1,195 @@
+Senior Portfolio Website
+Capstone Project — Assignment Packet
+
+PROTOTYPE / DEMO DAY FINAL SITE DUE FINAL PRESENTATION
+May 18, 2026 June 1, 2026 In Class (5–10 min)
+
+1 Project Overview
+
+This is it — your capstone. Over the last three years in the Web Design Pathway Program you have
+learned how to build real websites from the ground up: HTML, CSS, Bootstrap, JavaScript, JSON,
+jQuery, and Vue.js. You have built games, dynamic data-driven sites, and a full client website. Now
+you bring it all together in one place that is entirely and uniquely yours.
+Your senior portfolio website should do three things: showcase your best work, demonstrate your
+growth as a developer and designer, and tell your story — who you are, where you&#39;ve been, and
+where you&#39;re headed.
+CAPSTONE STANDARD
+This project should feel like the best work you have ever produced in this program. Effort, polish, and
+intentionality are expected at every level — from your design choices down to your code comments.
+
+2 Required Process
+
+You must follow all five phases of the design process below, in order. Each phase produces work that
+builds on the last — skipping steps will hurt your final result and your grade.
+STEP 1
+Research
+• Find 2–3 real professional web portfolios and study them.
+• For each: what you like about the layout, visuals, or UX; why it works; one thing you would do
+differently.
+• Save screenshots and notes — you will use these in your wireframes and presentation.
+
+STEP 2
+Planning — Wireframes
+• Create both before writing any code:
+• Low-Fidelity Wireframe — rough sketch of layout, sections, and navigation flow.
+• High-Fidelity Wireframe — detailed mockup with colors, typography, spacing, and real
+content.
+• Tools: Figma, Adobe XD, Canva, or hand-drawn (photographed). Both wireframes must be
+submitted.
+
+WEB DESIGN PATHWAY PROGRAM · SENIOR CAPSTONE
+
+Web Design Pathway Program · Senior Capstone Project Final Due: June 1, 2026
+STEP 3
+Build
+• Develop your full website using the skills and tools you have learned in this program.
+• Commit your code to GitHub regularly — your commit history shows your progress and will be
+reviewed.
+
+STEP 4
+Prototype + Peer Feedback (May 18)
+• Present your work-in-progress during a Gallery Walk on Demo Day.
+• Walk peers through your site and design choices.
+• Receive written peer feedback and use it to improve your site before the final due date.
+
+STEP 5
+Final Submission (June 1)
+• GitHub Repository link (with full commit history)
+• Live GitHub Pages deployment link
+• Both wireframes
+• AI Usage Documentation (see Section 6)
+
+3 Required Website Content
+
+Your portfolio must include all five content areas below. Each section should be thoughtfully written
+and feel like you — not generic filler text.
+A — FULL PORTFOLIO (ALL 3 YEARS)
+• Projects from each year of the program
+• Working links to every project
+• Organized clearly by year or skill level
+
+B — FEATURED PROJECTS
+• 2–3 featured projects per year (6–9 total)
+• Displayed in a clean gallery or blog-style layout
+• Each must include: description, skills learned,
+reflection, and screenshots
+
+C — REFLECTION
+• Your overall experience in the WDPP
+• How you have grown over three years
+• Key moments, challenges, or influences
+• Should feel personal and genuine — not a
+summary
+
+D — FUTURE PLANS
+• What you plan to do after high school
+• Career goals, college plans, or other paths
+• Must be detailed — at least a full paragraph
+• Connect your web design experience to your
+future
+
+E — PERSONAL BACKGROUND / ABOUT ME
+• Who you are, your interests and hobbies
+• Your story so far — what shaped you
+• Should feel like a real &quot;About&quot; page, not a resume bio
+
+4
+
+WEB DESIGN PATHWAY PROGRAM · SENIOR CAPSTONE
+
+Web Design Pathway Program · Senior Capstone Project Final Due: June 1, 2026
+Technical Requirements
+Your site must demonstrate the full range of skills you have developed in this program. The following
+are required — not optional.
+REQUIREMENT DETAILS
+JSON Data File Store your project data in a .json file. Your site must read from this file to
+
+display content — not hardcoded HTML.
+
+Vue.js or jQuery Use Vue or jQuery to dynamically render your project content from the JSON
+
+file using the fetch protocol, as you did in Level 3.
+
+GitHub Repository All code must be in a GitHub repo with a meaningful commit history showing
+
+your progress over time.
+
+GitHub Pages Your final site must be live and accessible via a GitHub Pages link.
+Responsive Design The site must work on desktop, tablet, and mobile. Layouts should feel
+
+intentionally designed for each — not just shrunk down.
+
+5 Design &amp; Creativity
+Design is a major focus of this project. Your site should be uniquely yours — it should not look like a
+template, and it should not look like your classmates&#39; sites.
+You are expected to:
+• Use custom fonts and a personal color palette
+• Create a distinct visual identity that feels personal and intentional
+• Make thoughtful layout choices — not just a default Bootstrap grid
+• Design your mobile layout intentionally — not just a smaller version of desktop
+YOU MAY ALSO USE
+CSS animations, GSAP, or other animation libraries. You may start from a template, but it must be
+significantly customized so that it clearly reflects your own design vision. If your site looks like an
+unmodified template, it will not score well on creativity.
+
+6 AI Usage Policy &amp; Documentation
+You are permitted to use AI tools such as ChatGPT, GitHub Copilot, or Claude to assist you.
+However, AI use must be documented and reflected on — this is non-negotiable.
+For every AI interaction you use, document:
+• The exact prompt you entered
+• What the AI returned
+• How you used, modified, or rejected the output
+• What you personally understand about what was generated
+What to submit:
+A document or dedicated page/section on your site with at least 3 specific examples of AI use, showing the
+prompt, output, and your reflection.
+
+WEB DESIGN PATHWAY PROGRAM · SENIOR CAPSTONE
+
+Web Design Pathway Program · Senior Capstone Project Final Due: June 1, 2026
+WHY THIS MATTERS
+Using AI without understanding it is not a skill. The goal of this requirement is to show that you can work
+with AI as a tool — that you understand what it gave you, why you used it, and what you changed. Blind
+copy-paste will be obvious and will not score well.
+
+7 Final Presentation
+In addition to your website, you will deliver a 5–10 minute presentation using Google Slides or
+PowerPoint. This presentation is its own assignment and will be graded separately.
+Your presentation should walk the audience through your entire process and highlight your portfolio.
+Think of it as your chance to speak to your work — explain the thinking behind your decisions, not
+just show the final product.
+SLIDE / SECTION WHAT TO COVER
+Introduction Who you are, what this project is, and your overall goal for the portfolio
+Research Portfolios you studied, what you took from them, how they influenced your
+
+planning
+
+Design Process Your lo-fi and hi-fi wireframes, design decisions, and how your vision evolved
+Development How the site was built — tools used, technical features, challenges you
+
+solved
+
+Portfolio Highlights Walk through 2–3 featured projects and explain what makes them your best
+
+work
+
+AI Usage Where and how you used AI, what you learned from it, its limitations
+Reflection What you&#39;re proud of, what was hard, what you would do differently, what
+
+comes next
+
+8 Grading Summary
+This project has two separate grades: one for your website and one for your presentation. See the
+attached rubrics for full details.
+COMPONENT POINTS
+Website — Process, content, technical implementation, design, responsiveness, AI
+documentation
+
+100 pts
+Presentation — Delivery, visual aid, process explanation, portfolio highlights, reflection 50 pts
+Total 150 pts
+
+⚠ IMPORTANT REMINDERS
+• A rushed or incomplete portfolio reflects poorly on everything you&#39;ve built in this program.
+• Your GitHub commit history will be reviewed — commit regularly and meaningfully.
+• If you use a template, customize it so thoroughly that it no longer looks like one.

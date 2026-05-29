@@ -1,0 +1,75 @@
+{
+  "islands": [
+    {
+      "id": "archives",
+      "name": "The Archives",
+      "description": "A central library containing all project links and work from the last 3 years.",
+      "position": [0, 0, -175],
+      "projects": [
+        { "year": "Sophomore", "name": "Aruba", "url": "https://7cdd20f1-1fce-4fbb-8e78-bd96efff519a-00-1qwayp5fnecvj.kirk.replit.dev/index.html" },
+        { "year": "Sophomore", "name": "My Favorite Album Covers", "url": "https://bbf66889-2c88-4d3a-b631-43f90b475159-00-1nz2j53oqczx0.riker.replit.dev/" },
+        { "year": "Junior", "name": "Sea Bright", "url": "https://alleniverson25.github.io/Summer-tainment-Site/" },
+        { "year": "Junior", "name": "Monthly Gallery", "url": "https://alleniverson25.github.io/MonthlyWebsiteGallery/" },
+        { "year": "Junior", "name": "Look Ma I'm Famous", "url": "https://alleniverson25.github.io/Look-Ma-Im-Famous/" },
+        { "year": "Junior", "name": "World Salad", "url": "https://alleniverson25.github.io/WorldSalad/" },
+        { "year": "Junior", "name": "Magic 8 Ball", "url": "https://alleniverson25.github.io/Magic8Ball/" },
+        { "year": "Junior", "name": "Name Generator", "url": "https://alleniverson25.github.io/NameGenerater/" },
+        { "year": "Junior", "name": "Rock Paper Scissors", "url": "https://alleniverson25.github.io/RockPaperScissors/" },
+        { "year": "Junior", "name": "El Presidente", "url": "https://alleniverson25.github.io/Elpresidente/" },
+        { "year": "Junior", "name": "Hangman Bro", "url": "https://alleniverson25.github.io/HangmanBro/" },
+        { "year": "Junior", "name": "Virtual Art Gallery", "url": "https://alleniverson25.github.io/VirtualGallery/" },
+        { "year": "Junior", "name": "Team Roster", "url": "https://alleniverson25.github.io/TeamRoster/" },
+        { "year": "Junior", "name": "Little Bird Toy Co", "url": "https://alleniverson25.github.io/Little-Bird-Toy-Company/landing.html" },
+        { "year": "Senior", "name": "College Folder", "url": "https://alleniverson25.github.io/college-folder2/" },
+        { "year": "Senior", "name": "Schedule Project", "url": "https://alleniverson25.github.io/2.04---Schedule-Project/" },
+        { "year": "Senior", "name": "Slideshow App", "url": "https://alleniverson25.github.io/NJIT-Project-1-Slideshow-App-with-jQuery/" },
+        { "year": "Senior", "name": "Top 8 Movies", "url": "https://alleniverson25.github.io/NJIT-Project-2-Movie-Poster-Gallery/" },
+        { "year": "Senior", "name": "Track Site", "url": "https://alleniverson25.github.io/TRACKSITE/" },
+        { "year": "Senior", "name": "Symphony & Harmony", "url": "https://alleniverson25.github.io/Symphony-and-Harmony/" }
+      ]
+    },
+    {
+      "id": "spotlight",
+      "name": "The Spotlight",
+      "description": "Featured projects showcasing my best work and growth.",
+      "position": [205, 0, 55],
+      "featured": [
+        { "year": "Sophomore", "title": "Aruba", "skills": "HTML, CSS", "reflection": "My first real dive into web layout and design inspired by the island's beauty.", "image": "/aruba.png" },
+        { "year": "Sophomore", "title": "My Favorite Album Covers", "skills": "Responsive Design", "reflection": "Learning how to make sites work across all devices while celebrating my favorite music.", "image": "/album_cover.png" },
+        { "year": "Junior", "title": "Sea Bright", "skills": "JavaScript, DOM", "reflection": "Interactivity became the focus, creating a summer guide for Sea Bright.", "image": "/seabright.png" },
+        { "year": "Junior", "title": "Virtual Art Gallery", "skills": "UI/UX", "reflection": "Focusing on the user experience and visual storytelling with classical art.", "image": "/virtual_art_gallery.png" },
+        { "year": "Senior", "title": "Symphony & Harmony", "skills": "React, Transitions", "reflection": "Applying advanced principles to create fluid applications for wellness specialists.", "image": "/symphony.png" },
+        { "year": "Senior", "title": "Top 8 Movies", "skills": "Dynamic Data", "reflection": "Handling complex data structures and rendering my top 8 IMDB movies.", "image": "/top_8_movies.png" }
+      ]
+    },
+    {
+      "id": "story",
+      "name": "The Story",
+      "description": "About me and my journey through Marlboro High School.",
+      "position": [-200, 0, 90],
+      "content": "I am Joseph Friedman, a Senior at Marlboro High School in the Web Design Pathway Program. Over the past three years, I have evolved from learning basic HTML to building complex interactive experiences. My passion lies in combining technical skill with creative vision."
+    },
+    {
+      "id": "horizon",
+      "name": "The Horizon",
+      "description": "Looking forward to the future after high school.",
+      "position": [50, 0, 290],
+      "content": "As I prepare to graduate, I am excited to dive deeper into the world of tech and design. I plan to continue my education in computer science and creative technologies, aiming to build tools that push the boundaries of the digital landscape. The web is my canvas, and I am just getting started."
+    },
+    {
+      "id": "ai-logic",
+      "name": "AI Logic",
+      "description": "Documentation of AI usage in my creative process.",
+      "position": [-165, 0, -210],
+      "prompts": [
+        { "prompt": "How can I implement collision detection in Three.js?", "output": "Using Raycasting or Bounding Boxes...", "reflection": "AI helped me understand the mathematical concepts behind 3D collision." },
+        { "prompt": "Design a warm terracotta color palette.", "output": "#C97850, #FBF7F3...", "reflection": "AI assisted in matching colors for a specific 'warm' aesthetic." }
+      ]
+    }
+  ],
+  "ramps": [
+    { "position": [60, 0, -50] },
+    { "position": [-60, 0, -55] },
+    { "position": [0, 0, -140] }
+  ]
+}
